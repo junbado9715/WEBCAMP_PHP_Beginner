@@ -1,2 +1,12 @@
 <?php
-echo "Hellow world/n";
+
+$price = 1800;
+
+$price_with_tax = $price * 1.10;
+
+echo "{$price_with_tax} \n";
+
+$family_name = "morita";
+$first_name = "jun";
+
+echo "{$family_name}{$first_name} \n";
